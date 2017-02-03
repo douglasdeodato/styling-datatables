@@ -1,0 +1,24 @@
+//hacks for old bootstrap datatables styles
+
+.dataTables_filter {
+  label {
+    color: white;
+    position: relative;
+    bottom: 20px;
+    right: 17px;
+  }
+}
+
+div.dataTables_paginate {
+    margin-right: 15px;
+}
+
+div.dataTables_info {
+   
+    display: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+        background: rgba(247, 249, 250, 0.25);
+
+}

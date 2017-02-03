@@ -1,0 +1,162 @@
+/* line 19, ../../scss/_config.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 4, ../../scss/_data-table.scss */
+.dataTables_filter label {
+  color: white;
+  position: relative;
+  bottom: 20px;
+  right: 17px;
+}
+
+/* line 12, ../../scss/_data-table.scss */
+div.dataTables_paginate {
+  margin-right: 15px;
+}
+
+/* line 16, ../../scss/_data-table.scss */
+div.dataTables_info {
+  display: none;
+}
+
+/* line 21, ../../scss/_data-table.scss */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: rgba(247, 249, 250, 0.25);
+}
+
+/* line 1, ../../scss/_data-tables.scss */
+.dashboard {
+  margin-top: 40px;
+  padding: 25px;
+}
+
+/* line 7, ../../scss/_data-tables.scss */
+input[type=text] {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 130px;
+  height: 34px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  color: #000;
+  background-image: url("http://www.w3schools.com/howto/searchicon.png");
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* line 26, ../../scss/_data-tables.scss */
+input[type=text]:focus {
+  width: 100%;
+}
+
+/* line 33, ../../scss/_data-tables.scss */
+.pagination {
+  border: 4px solid #ddd;
+}
+/* line 35, ../../scss/_data-tables.scss */
+.pagination > li > a {
+  border: 1px solid #ddd;
+  border-radius: 0 !important;
+}
+
+/* line 47, ../../scss/_data-tables.scss */
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active {
+  background-color: #fefefe;
+}
+
+/* line 69, ../../scss/_data-tables.scss */
+.table i {
+  color: #337ab7;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 6px 0;
+  width: 30px;
+  border: 2px solid #eeeeee;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 78, ../../scss/_data-tables.scss */
+.table i:hover {
+  text-decoration: none;
+  outline: 0;
+  transition: none;
+  color: #ffffff;
+  background: #337ab7;
+}
+/* line 89, ../../scss/_data-tables.scss */
+.table thead > tr > th,
+.table tbody > tr > td {
+  padding: 0;
+  vertical-align: middle;
+  border: none;
+  font-weight: 500;
+}
+/* line 98, ../../scss/_data-tables.scss */
+.table thead {
+  border-bottom: 1px solid #e6e6e6;
+}
+/* line 100, ../../scss/_data-tables.scss */
+.table thead tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  font-family: "http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900";
+  color: #393d46;
+  padding-left: 15px;
+}
+/* line 108, ../../scss/_data-tables.scss */
+.table thead tr th:hover {
+  transition: none;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+/* line 125, ../../scss/_data-tables.scss */
+.table tbody > tr {
+  border-bottom: none;
+}
+/* line 127, ../../scss/_data-tables.scss */
+.table tbody > tr td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #898b91;
+}
+/* line 131, ../../scss/_data-tables.scss */
+.table tbody > tr td:hover {
+  opacity: 1 !important;
+  transition: none;
+}
+/* line 136, ../../scss/_data-tables.scss */
+.table tbody > tr:not(:last-child) td {
+  border-bottom: 1px solid #f6f6f6;
+}
+/* line 139, ../../scss/_data-tables.scss */
+.table tbody > tr:not(:hover) td {
+  padding: 15px;
+}
+/* line 142, ../../scss/_data-tables.scss */
+.table tbody > tr:hover td {
+  color: #393d46;
+  background: #fafafa;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=app.dev.css.map */
